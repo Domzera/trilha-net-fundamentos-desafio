@@ -38,8 +38,7 @@ namespace DesafioFundamentos.Models
                 decimal valorTotal = 0; 
                 valorTotal=5+(2*horas);
 
-                // TODO: Remover a placa digitada da lista de veículos
-                // *IMPLEMENTE AQUI*
+                veiculos.Remove(placa);
 
                 Console.WriteLine($"O veículo {placa} foi removido e o preço total foi de: R$ {valorTotal}");
             }
